@@ -1,0 +1,82 @@
+_wandb:
+    value:
+        cli_version: 0.21.0
+        e:
+            739qdd2zrevknpvv7ybqsi86bonv9uy8:
+                cpu_count: 2
+                cpu_count_logical: 4
+                cudaVersion: "12.8"
+                disk:
+                    /:
+                        total: "8656922775552"
+                        used: "7047069794304"
+                email: cs24m507@smail.iitm.ac.in
+                executable: /usr/bin/python3
+                gpu: Tesla T4
+                gpu_count: 2
+                gpu_nvidia:
+                    - architecture: Turing
+                      cudaCores: 2560
+                      memoryTotal: "16106127360"
+                      name: Tesla T4
+                      uuid: GPU-b35e83ed-97cb-40a6-4524-56552af7c800
+                    - architecture: Turing
+                      cudaCores: 2560
+                      memoryTotal: "16106127360"
+                      name: Tesla T4
+                      uuid: GPU-873596b4-59d0-c9cc-beeb-8319895bcbf6
+                host: 8d088ea597f0
+                memory:
+                    total: "33662472192"
+                os: Linux-6.6.105+-x86_64-with-glibc2.35
+                program: kaggle.ipynb
+                python: CPython 3.11.13
+                root: /kaggle/working
+                startedAt: "2025-12-10T13:44:19.187017Z"
+                writerId: 739qdd2zrevknpvv7ybqsi86bonv9uy8
+        m: []
+        python_version: 3.11.13
+        t:
+            "1":
+                - 1
+                - 41
+                - 105
+            "2":
+                - 1
+                - 41
+                - 105
+            "3":
+                - 2
+                - 3
+                - 13
+                - 16
+            "4": 3.11.13
+            "5": 0.21.0
+            "8":
+                - 1
+                - 2
+                - 12
+            "12": 0.21.0
+            "13": linux-x86_64
+arch:
+    value: MobileNetV2
+augment:
+    value: RandAugment(num_ops=2, magnitude=9)
+base_lr:
+    value: 0.05
+batch_size_test:
+    value: 256
+batch_size_train:
+    value: 128
+epochs:
+    value: 200
+label_smoothing:
+    value: 0.1
+momentum:
+    value: 0.9
+scheduler:
+    value: CosineAnnealingLR(T_max=epochs)
+seed:
+    value: 42
+weight_decay:
+    value: 0.0005
